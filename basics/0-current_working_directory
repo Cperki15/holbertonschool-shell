@@ -1,3 +1,4 @@
 #!/bin/bash
-$ ./0-root@4b9b92a6e6eb:~/holbertonschool-shell/basics
+wc -l 12-file_type 2 12-file_type
+head -n 1 12-file_type
 
