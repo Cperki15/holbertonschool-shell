@@ -1,0 +1,2 @@
+#!/bin/bash
+cat test13 | sort | uniq -u 
