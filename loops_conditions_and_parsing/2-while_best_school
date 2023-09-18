@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 #script for looping using the while loop to print Best School 10 times
-while 
+z=1 
+while [ $z -le 10 ]
+do
+	echo "Best School $z times"
+	z=$(( $z + 1 ))
+done
