@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #Looping using the "until loop" to print/display Best School 10 times on 10 lines.
-count=0
+count=0	
 until false
 do
 	((count++))
-	if [[ $count -eq 10 ]]
+	if [[ $count -eq 11 ]]
 	then
 		break
 	fi
