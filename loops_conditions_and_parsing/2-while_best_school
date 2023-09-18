@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#script for looping using the while loop to print Best School 10 times
+#script for looping using the "while loop" to print Best School 10 times on 10 lines
 z=0 
 while [ $z -lt 10 ]
 do
