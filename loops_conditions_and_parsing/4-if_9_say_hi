@@ -4,7 +4,7 @@ z=0
 while [ $z -lt 10 ]
 do
 	echo "Best School"
-	z=$((z+1)
+	z=$((z+1))
 then 
 	continue
 
@@ -12,6 +12,5 @@ then
 	then
 		echo -e "Best School /nHi"
 	break
-if
-	((z++))	
-done
+
+
