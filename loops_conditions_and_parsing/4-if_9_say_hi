@@ -6,8 +6,9 @@ while [ $z -le 10 ]
 do
 	echo "Best School"
 	if [ $z -eq 9 ]
+	then
 
 		echo "Hi"
-	fi
+	fi	
 	z=$(( z + 1 ))
 done
