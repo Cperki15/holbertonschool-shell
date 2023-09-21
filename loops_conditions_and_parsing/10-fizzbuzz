@@ -1,7 +1,17 @@
 #!/usr/bin/env bash
-# displays the content of the file /etc/passwd and displays only user's name, Id, and home dir path.
-
-while read -r line
+# displays the content of the file /etc/passwd and displays only user's name, Id, and home dir path
+z=1
+while [$z -le 100 ]
 do
-	echo "$line" | cut -d ':' -f 1,3,6
-done</etc/passwd
+	if [ $((z%3)) -eq 0 -a $((z%5)) -eq 0 ] 
+	then
+		echo "FizzBuzz"
+	elif [ $((z%5)) -eq 0 ]
+		echo "Buzz"
+	elif [ $((z%3)) -eq 0 ]
+		echo "Fizz"
+	else
+		echo "$z"
+	fi
+	z=$((z+1))
+done
