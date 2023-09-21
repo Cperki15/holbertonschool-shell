@@ -5,7 +5,7 @@
 
 z=1
 
-while [$z -le 100 ]
+while [ $z -le 100 ]
 do
 	if [ $((z%3)) -eq 0 -a $((z%5)) -eq 0 ] 
 	then
