@@ -1,16 +1,13 @@
 #!/usr/bin/env bash
 # script will display Best School 10x , the 9th iteration displays Best School then hi on new line
-z=0
-while [ $z -lt 10 ]
+z=1
+
+while [ $z -le 10 ]
 do
 	echo "Best School"
-	z=$((z+1))
-then 
-	continue
-
 	if [ $z -eq 9 ]
-	then
-		echo -e "Best School /nHi"
-	break
 
-
+		echo "Hi"
+	fi
+	z=$(( z + 1 ))
+done

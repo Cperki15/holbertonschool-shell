@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Script will print a list of hours 0-12 and mins upto 59
+while true
+do
+
+
