@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# script displays 1-20, on 4 bad luck from china, 9 bad luck from japan, 17 bad luck from Italy.
+z=1
+while [ $z -le 10 ] 
+do
+	if [ $z -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ $z -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	z=$(( z+1))
+done
+
