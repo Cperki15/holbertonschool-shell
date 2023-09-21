@@ -7,17 +7,17 @@ z=1
 
 while [ $z -le 100 ]
 do
-	if [ $((z%3)) -eq 0 -a $((z%5)) -eq 0 ] 
+	if [ $((z % 3)) -eq 0 -a $(( z % 5 )) -eq 0 ] 
 	then
 		echo "FizzBuzz"
-	elif [ $((z%5)) -eq 0 ]
+	elif [ $(( z % 5 )) -eq 0 ]
 	then
 		echo "Buzz"
-	elif [ $((z%3)) -eq 0 ]
+	elif [ $(( z % 3 )) -eq 0 ]
 	then
 		echo "Fizz"
 	else
 		echo "$z"
 	fi
-	z=$((z+1))
+	z=$( (z + 1 ))
 done
