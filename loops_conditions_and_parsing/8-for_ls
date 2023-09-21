@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# displays content of current dir in list format and only the part of the name after the first dash.list=$(ls)
+for z in *
+do
+	echo "$z" | cut -d '-' -f 2
+done
