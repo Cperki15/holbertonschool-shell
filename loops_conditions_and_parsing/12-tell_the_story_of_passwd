@@ -2,5 +2,5 @@
 # script displays the content of a file using while loop with IFS
 while IFS=: read -r z1 z2 z3 z4 z5 z6 z7 
 do
-echo "the user $z1 is part of the $z4 gang, lives in $z6 and rides $z7. $z3's place is protected by the passcode $z2, more info about the user here: $z5"
+echo "The user $z1 is part of the $z4 gang, lives in $z6 and rides $z7. $z3's place is protected by the passcode $z2, more info about the user here: $z5"
 done</etc/passwd
