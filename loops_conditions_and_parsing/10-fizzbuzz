@@ -19,5 +19,5 @@ do
 	else
 		echo "$z"
 	fi
-	z=$( (z + 1 ))
+	z=$(( z + 1 ))
 done
