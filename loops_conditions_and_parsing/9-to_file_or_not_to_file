@@ -1,11 +1,8 @@
 #!/usr/bin/env bash
 # displays info about the school file
-
 filename="School"
-
 if [ -e $filename ]
 then
-
 	echo "School file exists"
 	if [ -s $filename ]
 	then
